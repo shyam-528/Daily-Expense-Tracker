@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+build/
+
+# env & secrets
+.env
+.env.local
+.env.production
+
+# database files
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# logs & misc
+*.log
+.DS_Store
+coverage/
+.vscode/
+.idea/
